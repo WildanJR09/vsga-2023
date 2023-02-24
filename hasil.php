@@ -58,6 +58,7 @@ $result = mysqli_query($conn, $query);
                 <th>IPK</th>
                 <th>Beasiswa</th>
                 <th>Berkas</th>
+                <th>status ajuan</th>
             </tr>
         </thead>
         <tbody>
@@ -70,6 +71,7 @@ $result = mysqli_query($conn, $query);
                 <td><?php echo $row['ipk']; ?></td>
                 <td><?php echo $row['beasiswa']; ?></td>
                 <td><?php echo $row['berkas']; ?></td>
+                <td><?php echo $row['status_ajuan']; ?></td
             </tr>
             <?php } ?>
         </tbody>

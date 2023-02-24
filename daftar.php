@@ -71,7 +71,7 @@
             <div class="form-group">
                 <label for="ipk">Input IPK Terakhir:</label>
                 <input type="number" value="<?php echo $ipk; ?>" step="0.01" name="ipk" class="form-control" id="ipk"
-                    placeholder="Masukkan IPK terakhir">
+                    placeholder="Masukkan IPK terakhir" readonly>
             </div>
             <div class="form-group">
                 <label for="pilihan-beasiswa">Pilihan Beasiswa:</label>
